@@ -1,39 +1,119 @@
-# 💰 Salary Saathi - Smart Personal Finance & AI Companion
+<div align="center">
 
-**Salary Saathi** is an intelligent, modern, and privacy-focused personal finance manager designed specifically for salaried professionals. Built with **Kotlin**, **Jetpack Compose**, and **Material 3**, Salary Saathi helps users track monthly salary, incentives, daily expenses, savings goals, and budgets effortlessly with the assistance of **AI Saathi** (powered by Google Gemini).
+# 💰 Salary Saathi (सैलरी साथी)
+
+**A warm, intelligent personal finance companion for salaried professionals.**
+
+![Android](https://img.shields.io/badge/Platform-Android-3DDC84.svg?style=for-the-badge&logo=android&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Language-Kotlin-7F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4.svg?style=for-the-badge&logo=jetpackcompose&logoColor=white)
+![Material 3](https://img.shields.io/badge/Design-Material%203-7B1FA2.svg?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
+
+<br/>
+
+**Salary Saathi** helps salaried workers track monthly income, incentives, daily spending, budgets, and savings goals with **AI Saathi** (powered by Google Gemini).
+
+</div>
 
 ---
 
-## ✨ Highlights & Key Features
+## 📱 App Screenshots
 
-### 💵 1. Salary & Income Management
-* **Flexible Salary Cycle:** Set custom monthly salary start dates (e.g., 1st or 30th of every month).
-* **Multiple Income Sources:** Track base salary, performance bonuses, overtime, investments, and side gigs.
-* **Income Breakdown:** Visual representation of gross earnings vs spent income.
+| Dashboard & Income | AI Saathi Chat | Theme & Notifications |
+| :---: | :---: | :---: |
+| <img src="assets/screenshot_1_83c64e07.png" width="260"/> | <img src="assets/screenshot_2_8993f3ba.png" width="260"/> | <img src="assets/screenshot_3_562805a7.png" width="260"/> |
+| **Salary & Expense Summary** | **AI Natural Language Logging** | **Custom Theme System Cards** |
 
-### 🤖 2. AI Saathi Assistant (Powered by Gemini)
-* **Natural Language Expense Logging:** Simply type or ask *"Added ₹150 for coffee"* or *"Spent ₹2500 on groceries"*, and AI Saathi automatically records it under the right category.
-* **Undo & Quick Actions:** Instant visual feedback with interactive action badges and single-tap undo capability.
-* **Smart Financial Insights:** Get personalized recommendations on monthly savings, budget alerts, and spending trends.
+---
 
-### 📱 3. Auto-Parsing UPI & Bank Alerts
-* **Notification Listener:** Automatically captures SMS/UPI transaction notifications from bank apps.
-* **One-Tap Quick Logging:** Parse amount, vendor, and category from notifications directly into your ledger.
-* **Custom Theme Notification Cards:** Beautiful, theme-colored notification cards with single-icon standard system style.
+## ✨ Key Features
 
-### 📊 4. Category Budgeting & Expense Tracking
-* **Custom Category Limits:** Set budget caps for Groceries, Rent, Utilities, Dining, Entertainment, Transport, and Shopping.
-* **Visual Progress Indicators:** Color-coded budget bars (Green, Yellow, Red) to alert you before overspending.
-* **Detailed Analytics:** Filter expenses by date, category, payment mode, or keyword search.
+* 💵 **Monthly Salary Tracking:** Custom salary cycles (e.g., 1st or 30th of every month), base pay, bonuses, and side earnings.
+* 🤖 **AI Saathi Assistant:** Type or talk to log expenses (*"Spent ₹250 on lunch"*), get smart budget advice, and tap interactive **Undo** badges.
+* 📱 **UPI & Bank SMS Alerts:** Auto-parses UPI transaction notifications into instant expense records.
+* 📊 **Category Budgets:** Set caps for Groceries, Utilities, Rent, Shopping, and Entertainment with color-coded warning bars.
+* 🎯 **Savings Goals:** Track emergency funds, festival savings, and milestones.
+* 🔒 **App Security:** 4-digit PIN lock screen with interactive dot indicator animations.
+* 🎨 **Dynamic Color Themes:** Emerald, Sapphire, Obsidian Dark Mode, Indigo Velvet, and Deep Crimson.
 
-### 🎯 5. Savings Goals & Milestones
-* **Goal Tracker:** Set targets for Emergency Fund, Vacation, Gadgets, or Festival Savings.
-* **Progress Badges:** Visual milestone badges celebrating your savings achievements.
+---
 
-### 🔒 6. Security & Customization
-* **4-Digit App PIN Lock:** Secure dot-indicator PIN screen protecting financial data.
-* **Dynamic Color Themes:** Support for multiple M3 color schemes (Emerald, Sapphire, Obsidian Dark, Indigo, Crimson).
-* **Initials Profile Avatars:** Clean dynamic avatar generated from user's full name.
+## 📥 APK Download & Installation Guide (For Users)
+
+### 📲 Step-by-Step Installation on Android Phone
+
+1. **Download the APK:**
+   * Go to the **[Releases](https://github.com/web-mdazads/aistudio-repository-template/releases)** section on the right side of this GitHub repository page.
+   * Tap on **`SalarySaathi.apk`** under Assets to download it.
+
+2. **Allow Installation from Unknown Sources:**
+   * When you tap to open the downloaded APK, Android may show:
+     > *"For your security, your phone is not allowed to install unknown apps from this source."*
+   * Tap **Settings**.
+   * Toggle ON **"Allow from this source"** (या *"Is srot se install ki anumati dein"*).
+
+3. **Install & Launch:**
+   * Tap **Install**.
+   * Once finished, tap **Open** to launch **Salary Saathi**!
+
+---
+
+## 🚀 How to Upload APK File on GitHub (Creating a Release)
+
+Aap apne users ke liye GitHub par APK download link banane ke liye ye steps follow karein:
+
+### Step 1: Export / Generate the APK File
+* **AI Studio se:** Top bar me **Settings** / **Export** icon ➔ **Export APK** / **Download APK** par click karke APK file download karein.
+* **Android Studio se:** `Build` menu ➔ `Build Bundle(s) / APK(s)` ➔ `Build APK(s)`. File `app/build/outputs/apk/debug/app-debug.apk` me milegi.
+
+### Step 2: GitHub Releases Open Karein
+1. Apne GitHub Repository page par jayein: `https://github.com/web-mdazads/aistudio-repository-template`
+2. Right side sidebar me **Releases** par click karein (ya **Create a new release** par click karein).
+
+### Step 3: Nayi Release Create Karein
+1. **Draft a new release** button par click karein.
+2. **Choose a tag** dropdown me type karein `v1.0.0` aur click karein **Create new tag: v1.0.0**.
+3. **Target:** `main` branch select rakhein.
+4. **Release title:** `Salary Saathi v1.0.0 - Official Release`
+5. **Description:** Release notes likhein (e.g. *"Salary Saathi Android App v1.0.0 with AI Saathi Assistant & Dynamic Themes"*).
+
+### Step 4: APK File Upload Karein
+1. Page ke bottom me **Attach binaries by dropping them here or selecting them** box dikhega.
+2. Apne computer/mobile se `.apk` file (e.g., `SalarySaathi.apk`) ko yahan **Drag & Drop** karein ya select karke attach karein.
+
+### Step 5: Publish Release
+1. **Publish release** button par click kar dein.
+2. Ab aapki release live ho gayi hai! Koi bhi user repository ke **Releases** tab par jaakar ek click me APK download kar sakta hai.
+
+---
+
+## 🖼️ How to Upload Logo & Screenshots on GitHub
+
+### Method 1: Web Browser se Direct Upload
+1. GitHub Repository home page par **Add file** ➔ **Upload files** button par click karein.
+2. Apni logo image (`logo.png`) ya screenshots images ko upload box me drag & drop karein.
+3. Commit Message me `Add app logo and screenshots to assets/` likhein.
+4. **Commit changes** button par click karein.
+
+### Method 2: Git Terminal se Upload
+```bash
+# Assets folder banayein aur images copy karein
+mkdir -p assets
+cp /path/to/logo.png assets/logo.png
+cp /path/to/screenshot1.png assets/screenshot_1.png
+
+# Git me add, commit aur push karein
+git add assets/
+git commit -m "Add app logo and screenshot assets"
+git push origin main
+```
+
+### README me Logo ya Screenshot add karne ka Syntax:
+```markdown
+![Salary Saathi Logo](assets/logo.png)
+![App Screenshot](assets/screenshot_1.png)
+```
 
 ---
 
@@ -41,69 +121,13 @@
 
 * **Language:** 100% Kotlin
 * **UI Framework:** Jetpack Compose with Material Design 3 (M3)
-* **Architecture:** MVVM (Model-View-ViewModel) + Clean Architecture principles
-* **Asynchronous Programming:** Kotlin Coroutines & `StateFlow` / `SharedFlow`
-* **Local Database:** Room Database with KSP (Kotlin Symbol Processing)
-* **Local Preferences:** Jetpack DataStore (Preferences)
-* **AI Integration:** Firebase AI Logic / Google Gemini API SDK
-* **Navigation:** Jetpack Navigation Compose with `@Serializable` type-safe routes
-* **Testing:** Robolectric JVM Unit & UI Tests
-
----
-
-## 🚀 How to Run the Project Locally
-
-### Prerequisites
-* Android Studio Jellyfish (2023.3.1) or newer
-* JDK 17 or higher
-* Android SDK 24+ (Min SDK 24, Target SDK 34)
-
-### Setup Steps
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/web-mdazads/aistudio-repository-template.git
-   cd aistudio-repository-template
-   ```
-2. **Open in Android Studio:**
-   * Select `File` -> `Open...` and select the project directory.
-   * Allow Gradle to sync dependencies automatically.
-3. **Build & Run:**
-   * Connect an Android device or launch an Android Emulator (API 24+).
-   * Press `Shift + F10` or click **Run 'app'**.
-
----
-
-## 📲 How to Export / Download APK
-
-### Method 1: Export APK directly from AI Studio
-1. In the **Google AI Studio** workspace editor interface, locate the top bar or settings menu.
-2. Click on the **Settings** / **Export** icon at the top right corner.
-3. Select **Export APK** / **Download APK**.
-4. Once the build process finishes, the downloadable `.apk` file will be saved to your computer or device downloads folder.
-
-### Method 2: Build APK via Android Studio
-1. Open the cloned repository in **Android Studio**.
-2. Go to `Build` menu in the top bar.
-3. Click `Build Bundle(s) / APK(s)` -> **`Build APK(s)`**.
-4. Once completed, a notification popup will appear showing **`APK(s) generated successfully`**.
-5. Click **`locate`** to find your output `.apk` file in `app/build/outputs/apk/debug/app-debug.apk`.
-
----
-
-## 🌐 How to Make your GitHub Repository Public
-
-If your repository is currently **Private** and you want to make it **Public** on GitHub:
-
-1. Open your repository on GitHub: `https://github.com/web-mdazads/aistudio-repository-template` (or via your GitHub Mobile App).
-2. Click on the **⚙️ Settings** tab located near the top right of the repository page.
-3. Scroll all the way down to the **"Danger Zone"** section at the bottom of the page.
-4. Locate **"Change repository visibility"** (or *Change visibility*).
-5. Click the **Change visibility** button.
-6. Select **"Make public"**.
-7. Read the confirmation prompt, type your repository name (e.g., `web-mdazads/aistudio-repository-template`) to confirm, and click **"I understand, change repository visibility"**.
-8. Your repository is now **Public** and accessible to everyone!
+* **Architecture:** MVVM (Model-View-ViewModel) + Clean Architecture
+* **Concurrency:** Kotlin Coroutines & `StateFlow`
+* **Local Database:** Room Database with KSP
+* **Preferences:** Jetpack DataStore
+* **AI Engine:** Firebase AI Logic / Google Gemini API SDK
 
 ---
 
 ## 📄 License
-This project is open-source under the MIT License. Feel free to customize and build upon it!
+This project is licensed under the MIT License - feel free to use and customize it!
