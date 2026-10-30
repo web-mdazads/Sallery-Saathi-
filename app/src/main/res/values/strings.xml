@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Salary Saathi</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_transactions">Transactions</string>
+    <string name="nav_budget">Budget</string>
+    <string name="nav_goals">Goals</string>
+    <string name="nav_ai">AI Saathi</string>
+    <string name="action_add_expense">Add Expense</string>
+    <string name="action_add_income">Add Income</string>
+    <string name="action_view_budget">Budget</string>
+    <string name="action_ask_ai">Ask AI</string>
+    <string name="action_setup_budget">Plan Budget</string>
+    <string name="daily_allowance_title">Today\'s Budget</string>
+    <string name="local_storage_notice">Stored locally on this device. Export a backup anytime.</string>
+    <string name="goals_manual_tracking_notice">Manual goal tracker</string>
+    <string name="ai_privacy_disclosure">Shares only monthly totals and goal progress when enabled.</string>
+    <string name="notification_listener_label">Salary Saathi Bank Alert Reader</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="channel_upi_approvals_name">UPI Approvals</string>
+    <string name="channel_upi_approvals_desc">Approve detected bank and UPI payments.</string>
+    <string name="channel_budget_alerts_name">Budget Alerts</string>
+    <string name="channel_budget_alerts_desc" formatted="false">Category 85% / 100% and daily limit alerts.</string>
+    <string name="channel_payday_name">Payday Reminders</string>
+    <string name="channel_payday_desc">Monthly payday and cycle reminders.</string>
+    <string name="channel_smart_insights_name">Smart Spending Insights</string>
+    <string name="channel_smart_insights_desc">Occasional daily spending &amp; budget summaries on active days.</string>
+    <string name="action_approve_and_add">Approve</string>
+    <string name="action_ignore_alert">Dismiss</string>
+    <string name="sms_privacy_notice">Parsed locally on device. Added only after approval.</string>
+    <string name="ai_action_undo">Undo</string>
+    <string name="ai_action_undone">Undone</string>
+    <string name="ai_changes_undone_toast">Changes undone.</string>
+    <string name="home_live_cycle_badge_desc">Active salary cycle, date, and live time</string>
+</resources>

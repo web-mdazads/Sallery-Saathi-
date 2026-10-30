@@ -1,0 +1,8 @@
+{
+  "name": "Remix Salary Saathi",
+  "description": "A warm, intelligent personal finance companion for salaried professionals to manage monthly income, incentives, budgets, savings goals, and daily spending with AI guidance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

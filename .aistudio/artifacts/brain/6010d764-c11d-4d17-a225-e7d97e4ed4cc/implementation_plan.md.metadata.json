@@ -1,0 +1,6 @@
+{
+  "summary":  "Implementation plan for Salary Saathi UX, security, AI speed, and state-preservation upgrades:\n1. Dynamic theme palette support on the launch Splash Screen (zero-flash cold start) and matching themed App Launcher Icon variants + in-app brand emblems.\n2. App PIN Lock attempt limit: 5 wrong attempts trigger a live 30-second cooldown timer with direct Security Recovery PIN reset.\n3. Home screen header and quick-action layout fixes eliminating greeting, date/cycle pill, and button label clipping.\n4. Horizontal swipeable tabs (HorizontalPager) across all 4 sections of Legal, Privacy & Safety synced with the top chip bar.\n5. Unclipped Verified badge on MD Azad's circular developer avatar.\n6. Direct installable APK sharing via FileProvider when tapping Share App.\n7. Occasional non-spammy Smart Usage & Spending notifications (strictly capped at max 1 insight per active day).\n8. Ultra-fast AI Saathi streaming replies by removing thinking/token bottlenecks and pre-warming model sessions.\n9. Full screen & sub-screen state preservation when backgrounding via the Home button and resuming (with or without PIN lock).",
+  "updatedAt":  "2026-10-28T15:24:07.015980254Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

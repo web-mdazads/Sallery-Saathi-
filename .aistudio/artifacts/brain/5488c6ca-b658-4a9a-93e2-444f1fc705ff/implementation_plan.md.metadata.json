@@ -1,0 +1,6 @@
+{
+  "summary":  "Implementation plan to streamline all Salary Saathi and AI Saathi system notifications to display strictly a single left app icon using standard BigTextStyle, removing both the Conversation corner sub-badge and the right-side largeIcon thumbnail while keeping theme accent color syncing and clean two-line notification copy.",
+  "updatedAt":  "2026-10-30T11:02:43.828494291Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
